@@ -1,0 +1,9 @@
+<suite name="NWNThealthcare">
+	<test name = "testing">
+		<classes>
+			<class name = "TestCases.Login"/>
+			<!-- <class name = "TestCases.ReceptionHome"/> -->
+			<class name = "TestCases.Registration"/>
+		</classes>
+	</test>
+</suite>

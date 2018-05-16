@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="5526" started-at="2018-05-10T08:16:12Z" finished-at="2018-05-10T08:16:18Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="5526" started-at="2018-05-10T08:16:12Z" finished-at="2018-05-10T08:16:18Z">
+      <class name="TestCases.Login">
+        <test-method status="PASS" signature="setup()[pri:0, instance:TestCases.Login@146ba0ac]" name="setup" is-config="true" duration-ms="4351" started-at="2018-05-10T13:46:08Z" finished-at="2018-05-10T13:46:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="user_login(java.lang.String, java.lang.String)[pri:0, instance:TestCases.Login@146ba0ac]" name="user_login" duration-ms="2320" started-at="2018-05-10T13:46:13Z" data-provider="getAuthenticationFromExcel" finished-at="2018-05-10T13:46:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Username]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user_login -->
+        <test-method status="PASS" signature="user_login(java.lang.String, java.lang.String)[pri:0, instance:TestCases.Login@146ba0ac]" name="user_login" duration-ms="1265" started-at="2018-05-10T13:46:15Z" data-provider="getAuthenticationFromExcel" finished-at="2018-05-10T13:46:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Reception]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Nwnt@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user_login -->
+        <test-method status="PASS" signature="user_login(java.lang.String, java.lang.String)[pri:0, instance:TestCases.Login@146ba0ac]" name="user_login" duration-ms="891" started-at="2018-05-10T13:46:17Z" data-provider="getAuthenticationFromExcel" finished-at="2018-05-10T13:46:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[V_Visitor]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Visitor@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user_login -->
+        <test-method status="PASS" signature="user_login(java.lang.String, java.lang.String)[pri:0, instance:TestCases.Login@146ba0ac]" name="user_login" duration-ms="467" started-at="2018-05-10T13:46:18Z" data-provider="getAuthenticationFromExcel" finished-at="2018-05-10T13:46:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[S_vohra]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Doct@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user_login -->
+        <test-method status="PASS" signature="cleanup()[pri:0, instance:TestCases.Login@146ba0ac]" name="cleanup" is-config="true" duration-ms="1047" started-at="2018-05-10T13:46:18Z" finished-at="2018-05-10T13:46:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanup -->
+      </class> <!-- TestCases.Login -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
